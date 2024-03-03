@@ -1,0 +1,49 @@
+.header{
+    height: 100px;
+    width: 99%;
+    background-color:orange;
+    margin: 0px;
+    text-align: center;
+}
+ul, li,a{
+    list-style-type: none;
+    display: inline; 
+    width: 70px; 
+    color: black;
+    font-size: 30px;  
+    text-align: left;
+    text-decoration: none;
+    margin: none;
+    padding: none;
+    position: relative;
+    left: -5px;
+    
+    
+}
+a:hover{
+    background: black;
+    border-radius: 5px;
+    transition: 1s;
+    color: white;
+}
+a:hover:after{
+    color:blue;
+}
+
+.header,h1{
+    color: white;
+}
+.listen{
+    font-family: times new Roman;
+    font-size: 10px;
+    background: orange;
+    padding: 5px;
+    width: 50%;
+    align-content: center;
+}
+.test{
+    background: white;
+    font-size: 15px;
+}
+    
+
